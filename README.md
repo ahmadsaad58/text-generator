@@ -1,1 +1,1 @@
-# text-generator
+# Text Generator Model and Web App
