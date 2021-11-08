@@ -28,6 +28,13 @@ lint:
 	@for name in $(DFILES); do $(PYLINT) $$name; done
 
 
+# run api for developing 
+run-api:
+	@echo "************************************************************************"
+	@echo "There will be a Jinja Exception on Webpages but the API will still work!"
+	@echo "************************************************************************"
+	cd backend && python3 main.py
+
 # output versions of all tools
 versions:
 	@echo  'shell uname -p'
