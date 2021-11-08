@@ -17,12 +17,15 @@ else
 endif
 
 MFILES := `ls Model/*.py`
+DFILES := `ls Model/Data/*.py`
 
 format:
 	@for name in $(MFILES); do $(BLACK) $$name; done
+	@for name in $(DFILES); do $(BLACK) $$name; done
 
 lint:
 	@for name in $(MFILES); do $(PYLINT) $$name; done
+	@for name in $(DFILES); do $(PYLINT) $$name; done
 
 
 # output versions of all tools
