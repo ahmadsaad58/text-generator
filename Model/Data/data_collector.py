@@ -2,6 +2,8 @@ from argparse import ArgumentParser
 import lyricsgenius as lg
 import pandas as pd
 
+# https://towardsdatascience.com/song-lyrics-genius-api-dcc2819c29
+
 # terminal colors
 class bcolors:
     HEADER = "\033[95m"

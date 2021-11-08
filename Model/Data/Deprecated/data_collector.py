@@ -5,6 +5,8 @@ import pandas as pd
 import re
 import requests
 
+# https://medium.com/analytics-vidhya/how-to-scrape-song-lyrics-a-gentle-python-tutorial-5b1d4ab351d2
+
 # terminal colors
 class bcolors:
     HEADER = "\033[95m"
